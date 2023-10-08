@@ -15,7 +15,13 @@ while times != max_times:
     elif true_ans > ans:
         print("your answer is too small")
         times += 1
+        continue
     else:
-        print("congratulation! your answer is right")
+        if(times == 0):
+            print("bingo! your answer is right")
+        elif(times == 1):
+            print("well! your answer is right")
+        elif(times == 2):
+            print("good! your answer is right")
 if times == 3:
     print("the times your guess reach {0}, the right answers is {1}".format(max_times,true_ans))
