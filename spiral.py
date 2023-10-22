@@ -1,4 +1,4 @@
-import turtle 
+import turtle
 
 turtle.setup(700, 700, 200, 200)
 basic_length = 5

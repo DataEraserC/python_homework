@@ -8,4 +8,6 @@ def isNum(num_str):
             return True
         else:
             return False
+
+
 print(isNum(input("please input a num here:")))

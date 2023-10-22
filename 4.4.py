@@ -1,5 +1,5 @@
 import random
-true_ans = random.randint(0,64)
+true_ans = random.randint(0, 64)
 times = 0
 max_times = 3
 while times != max_times:
@@ -17,11 +17,12 @@ while times != max_times:
         times += 1
         continue
     else:
-        if(times == 0):
+        if (times == 0):
             print("bingo! your answer is right")
-        elif(times == 1):
+        elif (times == 1):
             print("well! your answer is right")
-        elif(times == 2):
+        elif (times == 2):
             print("good! your answer is right")
 if times == 3:
-    print("the times your guess reach {0}, the right answers is {1}".format(max_times,true_ans))
+    print("the times your guess reach {0}, the right answers is {1}".format(
+        max_times, true_ans))

@@ -3,4 +3,6 @@ def isOdd(num_int):
         return True
     else:
         return False
+
+
 print(isOdd(eval(input("please input a num here:"))))
